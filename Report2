@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-02T16:53:25.957Z",
+        "line": 2,
+        "name": "Advanced search Page",
+        "description": "",
+        "id": "ebay-homepage-test;advanced-search-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on Ebay Homepage",
+            "match": {
+              "location": "steps.EbayHomePage.i_am_on_Ebay_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 381800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on advance link",
+            "match": {
+              "location": "steps.EbayHomePage.i_click_on_advance_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Advance search Page",
+            "match": {
+              "location": "steps.EbayHomePage.i_navigate_to_Advance_search_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay HomePage Test",
+    "description": "",
+    "id": "ebay-homepage-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/login.feature",
+    "tags": []
+  }
+]
