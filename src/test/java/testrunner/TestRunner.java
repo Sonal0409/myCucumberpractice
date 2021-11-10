@@ -23,7 +23,8 @@ import io.cucumber.junit.CucumberOptions;
 		//tags = {"@Test4"}
 		// tags = {"@Test5"}
      //	tags = {"@Test6"}
-	   tags = {"@Test7"}
+	   tags = {"@link"}
+		
 		)
 public class TestRunner {
 

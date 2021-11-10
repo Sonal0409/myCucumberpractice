@@ -5,10 +5,8 @@
 #That is, something that comes out of the system (report, user interface, message), 
 #and not a behaviour deeply buried inside the system (like a record in a database).
 
-Examples:
+Feature: 
+Scenario: See that the guessed word was wrong
 
-See that the guessed word was wrong
-Receive an invitation
-Card should be swallowed
 
-You should only verify an outcome that is observable for the user (or external system), and changes to a database are usually not.
+# You should only verify an outcome that is observable for the user (or external system), and changes to a database are usually not.
