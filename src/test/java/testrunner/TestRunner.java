@@ -10,9 +10,14 @@ import io.cucumber.junit.CucumberOptions;
 		features = {"C:\\Users\\sonal\\eclipse-workspace\\14OctCucumber\\src\\main\\java\\features"},
         glue= {"steps"},
        
-	plugin = {"pretty","html:Report"},
+	//plugin = {"pretty","html:Report"},
         	//	plugin = {"pretty","json:Report2"}
         		//plugin = {"pretty","junit:Report3"}
+	plugin = {"pretty", 
+			"html:results/html",
+			"json:results/json/results.json",
+			"junit:results/junit/cucumber.xml"
+	},
 		//dryRun = true, // this option is used to findout if any steps doesnot have step definition file.
      dryRun=false, // this option will execute all the steps that have step definition file
 	
